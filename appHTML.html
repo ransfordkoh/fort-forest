@@ -34,13 +34,7 @@
    <h1 class="text-center py-5">The Mechanics Of Git Version Control</h1>
   </div>
   <!--/HEADER -->
-  <hr style="border:3px solid red;">
-  <div id="mergeConflict" class="alert alert-danger">
-  <h4>FIRST CONFLICT SOURCE: another-bug-fix</h4>
-  <p>The FIRST line of merge conflict text</p>
-  <p>The SECOND line of merge conflict text</p>
-  </div>
-  <hr style="border:3px solid red;">
+  
   <!--CONTENT -->
   <div class="col-md-6 mx-auto">
    <div class="alert alert-success">
@@ -62,11 +56,15 @@
     <img class="image" src="src/appImages/office1.jpg" alt="A Modern Office">
    </div>
   </div>
-  
+
+  <div id="mergeConflict" class="alert alert-danger">
+  <h4>THIS IS THE BUG-FIX TO CREATE MERGE CONFLICT</h4>
+  <p>The FIRST line of merge conflict text</p>
+  <p>The SECOND line of merge conflict text</p>
+  <button type="button" class="btn btn-danger" id="btn2">mergeConflict</button>
+  </div> 
+
   <hr style="border: 3px solid red;">
-    <h1 class="alert alert-dark">SECOND CONFLICT SOURCE!!!: another-bug-fix</h1>
-  <hr style="border: 3px solid red;">
-  
   <div class="col-md-8 mx-auto">
    <div class="alert alert-secondary">
     <h2 class="text-center py-3" style="color:red;">SECOND image inserted in "add-more-images" branch</h2>
